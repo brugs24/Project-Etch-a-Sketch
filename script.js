@@ -5,8 +5,8 @@ for (let i = 0; i < squareDivs; i++) {
     const newSquareDivs = document.createElement("div");
 
     newSquareDivs.id = "div-" + i;
+    newSquareDivs.className = "square";
     newSquareDivs.style.color = "blue";
-    newSquareDivs.style.marginBottom = "10px";
     newSquareDivs.textContent = "This is div number " + i;
     newSquareDivs.addEventListener("mouseover", () => {
         newSquareDivs.style.color = "red";

@@ -1,0 +1,17 @@
+#container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: auto;
+    border: 50px black;
+
+}
+
+.square {
+    border: 5px;
+    border-color: black;
+    padding: 5px;
+
+}
+
