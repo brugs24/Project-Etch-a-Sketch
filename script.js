@@ -6,14 +6,12 @@ for (let i = 0; i < squareDivs; i++) {
 
     newSquareDivs.id = "div-" + i;
     newSquareDivs.className = "square";
-    newSquareDivs.style.color = "blue";
-    newSquareDivs.textContent = "This is div number " + i;
     newSquareDivs.addEventListener("mouseover", () => {
-        newSquareDivs.style.color = "red";
+        newSquareDivs.style.backgroundColor = "red";
     });
 
     newSquareDivs.addEventListener("mouseout", ()=> {
-        newSquareDivs.style.color = "blue";
+        newSquareDivs.style.backgroundColor = "white";
     });
     container.appendChild(newSquareDivs);
 }

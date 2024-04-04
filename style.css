@@ -1,17 +1,18 @@
 #container {
     display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    height: 500px;
-    width: auto;
-    border: 50px black;
+    height: 600px;
+    border: 2px solid black;
+    width: 600px;
+    flex-wrap: wrap;
 
 }
 
 .square {
-    border: 5px;
-    border-color: black;
+    border: 1px solid black;
     padding: 5px;
+    flex-basis: 25px;
+    min-height: 25px;
+    flex-grow: 1;
 
 }
 
