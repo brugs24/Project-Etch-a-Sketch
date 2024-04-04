@@ -1,7 +1,19 @@
+const button = document.querySelector(".gridButton");
 
-//const squareCount = 256;
+button.addEventListener("click", () =>{
+    clearSquareBox();
+    let size = prompt("Please enter number of square:", "")
+    if (size >= 101){
+        alert("Entered number is too high");
+    }else{
+        createSquareBox(size);
+    };
+    
+});
 
-
+function clearSquareBox() {
+    container.innerHTML = "";
+}
 function createSquareBox(size) {
     const container = document.querySelector("#container");
     container.style.setProperty("--size", size);
@@ -16,10 +28,9 @@ function createSquareBox(size) {
         });
 
         newSquareBox.addEventListener("mouseout", ()=> {
-            newSquareBox.style.backgroundColor = "aqua";
+            newSquareBox.style.backgroundColor = "wheat";
         });
               
     }
 }
 
-createSquareBox(50);

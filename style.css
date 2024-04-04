@@ -10,6 +10,18 @@
     box-sizing: border-box;
     width: calc(100% / var(--size));
     height: calc(100% / var(--size));
-    background-color: aqua;
+    background-color: wheat;
+    
 }
 
+.gridButton {
+    background-color: grey;
+    border: none;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 4px;
+}
+
+body {
+    margin-top: 0;
+}
