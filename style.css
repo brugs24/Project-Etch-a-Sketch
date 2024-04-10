@@ -10,8 +10,8 @@
     box-sizing: border-box;
     width: calc(100% / var(--size));
     height: calc(100% / var(--size));
-    background-color: wheat;
-    
+/*    background-color: wheat;
+  */  
 }
 
 .gridButton {
